@@ -1,0 +1,37 @@
+#clockContainer{
+    position: relative;
+    margin: auto;/*makes the entire clock to allign in the center of the screen*/
+    width: 40VW;
+    height: 41vW;
+    background:url(clock11.png);
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+#hour,#minute,#second{
+    position: absolute;/*the arrangement of the hands can be arranged ie top bottom can be arranged */
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;/*makes the hands of the clock rotate from the bottom of the hand*/
+}
+#hour{
+    width: 2%;
+    height: 21%;
+    top: 29%;
+    left: 50%;
+    opacity: 0.8;  
+    
+}
+#minute{
+    width: 1.5%;
+    height: 36%;
+    top: 14%;
+    left: 50%;
+    opacity: 0.8;
+}
+#second{
+    width: 1%;
+    height: 46%;
+    top: 4%;
+    left: 50%;
+    opacity: 0.8;
+}
